@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en" style="height: 100%;">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Scrive</title>
+
+  <!-- Office JavaScript API -->
+  <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+</head>
+
+<body style="height: 99%; margin: 0;">
+<h1>Redirecting in 3 seconds ...</h1>
+<script type="application/javascript">
+  (function() {
+    Office.onReady(function () {
+      setTimeout(() => {
+        window.location.href = "{{{ url }}}";
+      }, 3000);
+
+    });
+  })();
+</script>
+</body>
+</html>

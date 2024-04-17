@@ -1,0 +1,23 @@
+{
+  "name": "officejs-reproduce-dialog-problem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cattermo/officejs-reproduce-dialog-problem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cattermo/officejs-reproduce-dialog-problem/issues"
+  },
+  "homepage": "https://github.com/cattermo/officejs-reproduce-dialog-problem#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "hbs": "^4.2.0"
+  }
+}

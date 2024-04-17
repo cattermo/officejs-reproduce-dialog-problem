@@ -1,0 +1,13 @@
+version: "3.3"
+
+# For people, like Clara, who does not use VSCode, this is used instead of devcontainer
+services:
+  ngrok:
+    image: ngrok/ngrok:3.8.0-alpine
+    container_name: ngrok2
+    ports:
+      - 8090:8090
+      - 4040:4040
+    env_file:
+      - .env
+    command: http host.docker.internal:3001 --authtoken $NGROK_AUTH --host-header localhost
