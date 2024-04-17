@@ -1,9 +1,9 @@
 # Test Repository to reproduce bug in Officejs
 
 ## Requirements
-NodeJS
-Docker
-Free account at https://ngrok.com 
+NodeJS  
+Docker  
+Free account at https://ngrok.com   
 
 ## Getting started
 We will use ngrok to simply get a hosted https url to test with.
